@@ -120,7 +120,7 @@ function MyThree() {
     mCtx.letterSpacing = "1px"; mCtx.font = 'italic 32px "Segoe UI", sans-serif';
     mCtx.fillText('Wishing you and your family an Eid full of', 600, 520);
     mCtx.fillText('Happiness, Peace & Spiritual Joy', 600, 570);
-    mCtx.font = 'bold 30px sans-serif'; mCtx.fillText('by Abdullah Mufeez', 600, 660);
+    mCtx.font = 'bold 30px sans-serif'; mCtx.fillText('Abdullah Mufeez', 600, 660);
     mCtx.font = '24px sans-serif'; mCtx.fillText('(B23110006080)', 600, 700);
     const msgSprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: new THREE.CanvasTexture(msgCanvas), transparent: true, opacity: 0 }));
     msgSprite.scale.set(0.1, 0.1, 1);
